@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8ECCFB2F2BB2749D00C39125 /* CustomCardDelete_playgroundApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ECCFB2E2BB2749D00C39125 /* CustomCardDelete_playgroundApp.swift */; };
+		8ECCFB312BB2749D00C39125 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ECCFB302BB2749D00C39125 /* ContentView.swift */; };
+		8ECCFB332BB274A100C39125 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8ECCFB322BB274A100C39125 /* Assets.xcassets */; };
+		8ECCFB362BB274A100C39125 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8ECCFB352BB274A100C39125 /* Preview Assets.xcassets */; };
+		8ECCFB402BB274A200C39125 /* CustomCardDelete_playgroundTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ECCFB3F2BB274A200C39125 /* CustomCardDelete_playgroundTests.swift */; };
+		8ECCFB4A2BB274A200C39125 /* CustomCardDelete_playgroundUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ECCFB492BB274A200C39125 /* CustomCardDelete_playgroundUITests.swift */; };
+		8ECCFB4C2BB274A200C39125 /* CustomCardDelete_playgroundUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ECCFB4B2BB274A200C39125 /* CustomCardDelete_playgroundUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8ECCFB3C2BB274A200C39125 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8ECCFB232BB2749D00C39125 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8ECCFB2A2BB2749D00C39125;
+			remoteInfo = CustomCardDelete_playground;
+		};
+		8ECCFB462BB274A200C39125 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8ECCFB232BB2749D00C39125 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8ECCFB2A2BB2749D00C39125;
+			remoteInfo = CustomCardDelete_playground;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8ECCFB2B2BB2749D00C39125 /* CustomCardDelete_playground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomCardDelete_playground.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8ECCFB2E2BB2749D00C39125 /* CustomCardDelete_playgroundApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCardDelete_playgroundApp.swift; sourceTree = "<group>"; };
+		8ECCFB302BB2749D00C39125 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8ECCFB322BB274A100C39125 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8ECCFB352BB274A100C39125 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8ECCFB3B2BB274A100C39125 /* CustomCardDelete_playgroundTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomCardDelete_playgroundTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8ECCFB3F2BB274A200C39125 /* CustomCardDelete_playgroundTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCardDelete_playgroundTests.swift; sourceTree = "<group>"; };
+		8ECCFB452BB274A200C39125 /* CustomCardDelete_playgroundUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomCardDelete_playgroundUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8ECCFB492BB274A200C39125 /* CustomCardDelete_playgroundUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCardDelete_playgroundUITests.swift; sourceTree = "<group>"; };
+		8ECCFB4B2BB274A200C39125 /* CustomCardDelete_playgroundUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCardDelete_playgroundUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8ECCFB282BB2749D00C39125 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8ECCFB382BB274A100C39125 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8ECCFB422BB274A200C39125 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8ECCFB222BB2749D00C39125 = {
+			isa = PBXGroup;
+			children = (
+				8ECCFB2D2BB2749D00C39125 /* CustomCardDelete_playground */,
+				8ECCFB3E2BB274A200C39125 /* CustomCardDelete_playgroundTests */,
+				8ECCFB482BB274A200C39125 /* CustomCardDelete_playgroundUITests */,
+				8ECCFB2C2BB2749D00C39125 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8ECCFB2C2BB2749D00C39125 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8ECCFB2B2BB2749D00C39125 /* CustomCardDelete_playground.app */,
+				8ECCFB3B2BB274A100C39125 /* CustomCardDelete_playgroundTests.xctest */,
+				8ECCFB452BB274A200C39125 /* CustomCardDelete_playgroundUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8ECCFB2D2BB2749D00C39125 /* CustomCardDelete_playground */ = {
+			isa = PBXGroup;
+			children = (
+				8ECCFB2E2BB2749D00C39125 /* CustomCardDelete_playgroundApp.swift */,
+				8ECCFB302BB2749D00C39125 /* ContentView.swift */,
+				8ECCFB322BB274A100C39125 /* Assets.xcassets */,
+				8ECCFB342BB274A100C39125 /* Preview Content */,
+			);
+			path = CustomCardDelete_playground;
+			sourceTree = "<group>";
+		};
+		8ECCFB342BB274A100C39125 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				8ECCFB352BB274A100C39125 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8ECCFB3E2BB274A200C39125 /* CustomCardDelete_playgroundTests */ = {
+			isa = PBXGroup;
+			children = (
+				8ECCFB3F2BB274A200C39125 /* CustomCardDelete_playgroundTests.swift */,
+			);
+			path = CustomCardDelete_playgroundTests;
+			sourceTree = "<group>";
+		};
+		8ECCFB482BB274A200C39125 /* CustomCardDelete_playgroundUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8ECCFB492BB274A200C39125 /* CustomCardDelete_playgroundUITests.swift */,
+				8ECCFB4B2BB274A200C39125 /* CustomCardDelete_playgroundUITestsLaunchTests.swift */,
+			);
+			path = CustomCardDelete_playgroundUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8ECCFB2A2BB2749D00C39125 /* CustomCardDelete_playground */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8ECCFB4F2BB274A200C39125 /* Build configuration list for PBXNativeTarget "CustomCardDelete_playground" */;
+			buildPhases = (
+				8ECCFB272BB2749D00C39125 /* Sources */,
+				8ECCFB282BB2749D00C39125 /* Frameworks */,
+				8ECCFB292BB2749D00C39125 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CustomCardDelete_playground;
+			productName = CustomCardDelete_playground;
+			productReference = 8ECCFB2B2BB2749D00C39125 /* CustomCardDelete_playground.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8ECCFB3A2BB274A100C39125 /* CustomCardDelete_playgroundTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8ECCFB522BB274A200C39125 /* Build configuration list for PBXNativeTarget "CustomCardDelete_playgroundTests" */;
+			buildPhases = (
+				8ECCFB372BB274A100C39125 /* Sources */,
+				8ECCFB382BB274A100C39125 /* Frameworks */,
+				8ECCFB392BB274A100C39125 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8ECCFB3D2BB274A200C39125 /* PBXTargetDependency */,
+			);
+			name = CustomCardDelete_playgroundTests;
+			productName = CustomCardDelete_playgroundTests;
+			productReference = 8ECCFB3B2BB274A100C39125 /* CustomCardDelete_playgroundTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8ECCFB442BB274A200C39125 /* CustomCardDelete_playgroundUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8ECCFB552BB274A200C39125 /* Build configuration list for PBXNativeTarget "CustomCardDelete_playgroundUITests" */;
+			buildPhases = (
+				8ECCFB412BB274A200C39125 /* Sources */,
+				8ECCFB422BB274A200C39125 /* Frameworks */,
+				8ECCFB432BB274A200C39125 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8ECCFB472BB274A200C39125 /* PBXTargetDependency */,
+			);
+			name = CustomCardDelete_playgroundUITests;
+			productName = CustomCardDelete_playgroundUITests;
+			productReference = 8ECCFB452BB274A200C39125 /* CustomCardDelete_playgroundUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8ECCFB232BB2749D00C39125 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					8ECCFB2A2BB2749D00C39125 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					8ECCFB3A2BB274A100C39125 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 8ECCFB2A2BB2749D00C39125;
+					};
+					8ECCFB442BB274A200C39125 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 8ECCFB2A2BB2749D00C39125;
+					};
+				};
+			};
+			buildConfigurationList = 8ECCFB262BB2749D00C39125 /* Build configuration list for PBXProject "CustomCardDelete_playground" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8ECCFB222BB2749D00C39125;
+			productRefGroup = 8ECCFB2C2BB2749D00C39125 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8ECCFB2A2BB2749D00C39125 /* CustomCardDelete_playground */,
+				8ECCFB3A2BB274A100C39125 /* CustomCardDelete_playgroundTests */,
+				8ECCFB442BB274A200C39125 /* CustomCardDelete_playgroundUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8ECCFB292BB2749D00C39125 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8ECCFB362BB274A100C39125 /* Preview Assets.xcassets in Resources */,
+				8ECCFB332BB274A100C39125 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8ECCFB392BB274A100C39125 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8ECCFB432BB274A200C39125 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8ECCFB272BB2749D00C39125 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8ECCFB312BB2749D00C39125 /* ContentView.swift in Sources */,
+				8ECCFB2F2BB2749D00C39125 /* CustomCardDelete_playgroundApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8ECCFB372BB274A100C39125 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8ECCFB402BB274A200C39125 /* CustomCardDelete_playgroundTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8ECCFB412BB274A200C39125 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8ECCFB4A2BB274A200C39125 /* CustomCardDelete_playgroundUITests.swift in Sources */,
+				8ECCFB4C2BB274A200C39125 /* CustomCardDelete_playgroundUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8ECCFB3D2BB274A200C39125 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8ECCFB2A2BB2749D00C39125 /* CustomCardDelete_playground */;
+			targetProxy = 8ECCFB3C2BB274A200C39125 /* PBXContainerItemProxy */;
+		};
+		8ECCFB472BB274A200C39125 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8ECCFB2A2BB2749D00C39125 /* CustomCardDelete_playground */;
+			targetProxy = 8ECCFB462BB274A200C39125 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		8ECCFB4D2BB274A200C39125 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8ECCFB4E2BB274A200C39125 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8ECCFB502BB274A200C39125 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CustomCardDelete_playground/Preview Content\"";
+				DEVELOPMENT_TEAM = 9GGZWXBXQ6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "YangCustom.CustomCardDelete-playground";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8ECCFB512BB274A200C39125 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CustomCardDelete_playground/Preview Content\"";
+				DEVELOPMENT_TEAM = 9GGZWXBXQ6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "YangCustom.CustomCardDelete-playground";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8ECCFB532BB274A200C39125 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9GGZWXBXQ6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "YangCustom.CustomCardDelete-playgroundTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CustomCardDelete_playground.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CustomCardDelete_playground";
+			};
+			name = Debug;
+		};
+		8ECCFB542BB274A200C39125 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9GGZWXBXQ6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "YangCustom.CustomCardDelete-playgroundTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CustomCardDelete_playground.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CustomCardDelete_playground";
+			};
+			name = Release;
+		};
+		8ECCFB562BB274A200C39125 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9GGZWXBXQ6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "YangCustom.CustomCardDelete-playgroundUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CustomCardDelete_playground;
+			};
+			name = Debug;
+		};
+		8ECCFB572BB274A200C39125 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9GGZWXBXQ6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "YangCustom.CustomCardDelete-playgroundUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CustomCardDelete_playground;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8ECCFB262BB2749D00C39125 /* Build configuration list for PBXProject "CustomCardDelete_playground" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8ECCFB4D2BB274A200C39125 /* Debug */,
+				8ECCFB4E2BB274A200C39125 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8ECCFB4F2BB274A200C39125 /* Build configuration list for PBXNativeTarget "CustomCardDelete_playground" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8ECCFB502BB274A200C39125 /* Debug */,
+				8ECCFB512BB274A200C39125 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8ECCFB522BB274A200C39125 /* Build configuration list for PBXNativeTarget "CustomCardDelete_playgroundTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8ECCFB532BB274A200C39125 /* Debug */,
+				8ECCFB542BB274A200C39125 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8ECCFB552BB274A200C39125 /* Build configuration list for PBXNativeTarget "CustomCardDelete_playgroundUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8ECCFB562BB274A200C39125 /* Debug */,
+				8ECCFB572BB274A200C39125 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8ECCFB232BB2749D00C39125 /* Project object */;
+}
