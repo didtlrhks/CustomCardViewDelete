@@ -14,6 +14,10 @@
 		8ECCFB402BB274A200C39125 /* CustomCardDelete_playgroundTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ECCFB3F2BB274A200C39125 /* CustomCardDelete_playgroundTests.swift */; };
 		8ECCFB4A2BB274A200C39125 /* CustomCardDelete_playgroundUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ECCFB492BB274A200C39125 /* CustomCardDelete_playgroundUITests.swift */; };
 		8ECCFB4C2BB274A200C39125 /* CustomCardDelete_playgroundUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ECCFB4B2BB274A200C39125 /* CustomCardDelete_playgroundUITestsLaunchTests.swift */; };
+		8ECCFB592BB2757F00C39125 /* CartViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ECCFB582BB2757F00C39125 /* CartViewModel.swift */; };
+		8ECCFB5B2BB2759000C39125 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ECCFB5A2BB2759000C39125 /* Item.swift */; };
+		8ECCFB5D2BB275A700C39125 /* CartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ECCFB5C2BB275A700C39125 /* CartView.swift */; };
+		8ECCFB5F2BB275CC00C39125 /* ItemViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ECCFB5E2BB275CC00C39125 /* ItemViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +48,10 @@
 		8ECCFB452BB274A200C39125 /* CustomCardDelete_playgroundUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomCardDelete_playgroundUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8ECCFB492BB274A200C39125 /* CustomCardDelete_playgroundUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCardDelete_playgroundUITests.swift; sourceTree = "<group>"; };
 		8ECCFB4B2BB274A200C39125 /* CustomCardDelete_playgroundUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCardDelete_playgroundUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8ECCFB582BB2757F00C39125 /* CartViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartViewModel.swift; sourceTree = "<group>"; };
+		8ECCFB5A2BB2759000C39125 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		8ECCFB5C2BB275A700C39125 /* CartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartView.swift; sourceTree = "<group>"; };
+		8ECCFB5E2BB275CC00C39125 /* ItemViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +106,10 @@
 				8ECCFB302BB2749D00C39125 /* ContentView.swift */,
 				8ECCFB322BB274A100C39125 /* Assets.xcassets */,
 				8ECCFB342BB274A100C39125 /* Preview Content */,
+				8ECCFB582BB2757F00C39125 /* CartViewModel.swift */,
+				8ECCFB5A2BB2759000C39125 /* Item.swift */,
+				8ECCFB5C2BB275A700C39125 /* CartView.swift */,
+				8ECCFB5E2BB275CC00C39125 /* ItemViewCell.swift */,
 			);
 			path = CustomCardDelete_playground;
 			sourceTree = "<group>";
@@ -257,6 +269,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8ECCFB5D2BB275A700C39125 /* CartView.swift in Sources */,
+				8ECCFB5B2BB2759000C39125 /* Item.swift in Sources */,
+				8ECCFB592BB2757F00C39125 /* CartViewModel.swift in Sources */,
+				8ECCFB5F2BB275CC00C39125 /* ItemViewCell.swift in Sources */,
 				8ECCFB312BB2749D00C39125 /* ContentView.swift in Sources */,
 				8ECCFB2F2BB2749D00C39125 /* CustomCardDelete_playgroundApp.swift in Sources */,
 			);
